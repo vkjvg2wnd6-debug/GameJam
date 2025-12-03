@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://coq6d3u6wnvs2"]
+[gd_scene load_steps=7 format=3 uid="uid://coq6d3u6wnvs2"]
 
 [ext_resource type="Script" uid="uid://dilh5jyuklov6" path="res://components/platform/platform.gd" id="1_dpc6h"]
+[ext_resource type="Texture2D" uid="uid://dknnt5ngn0hlv" path="res://assets/items/gem.png" id="2_m2s26"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i4vtk"]
 resource_local_to_scene = true
@@ -55,7 +56,12 @@ shape = SubResource("RectangleShape2D_o2vn2")
 
 [node name="Sprites" type="Node2D" parent="RigidBody2D"]
 unique_name_in_owner = true
+visible = false
 texture_filter = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+scale = Vector2(8.719999, 2.7999992)
+texture = ExtResource("2_m2s26")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="RigidBody2D"]
 unique_name_in_owner = true

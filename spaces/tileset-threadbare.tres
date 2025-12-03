@@ -1,6 +1,6 @@
 [gd_resource type="TileSet" load_steps=6 format=3 uid="uid://321ocrwkcyye"]
 
-[ext_resource type="Texture2D" uid="uid://d2uesk6kurr2a" path="res://assets/tiles-threadbare.png" id="1_vyy2r"]
+[ext_resource type="Texture2D" uid="uid://d2uesk6kurr2a" path="res://tiles-threadbare.png" id="1_vyy2r"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_drgft"]
 tile_data = PackedInt32Array(0, 65536, 0, 65536, 0, 0, 1, 131072, 0, 65537, 0, 0, 2, 131072, 0, 65538, 0, 0, 3, 196608, 0, 65539, 0, 0)

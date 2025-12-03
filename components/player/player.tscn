@@ -7,8 +7,8 @@
 [ext_resource type="AudioStream" uid="uid://p0b3e0t7h8j3" path="res://assets/sounds/596541__tothrec2__large-wings-flapping-foley.ogg" id="4_mpawu"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7x5a4"]
-radius = 31.0
-height = 92.0
+radius = 49.0
+height = 362.0
 
 [sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_mpawu"]
 random_pitch = 1.1
@@ -46,11 +46,11 @@ color = Color(1, 1, 0, 1)
 unique_name_in_owner = true
 position = Vector2(0, -64)
 sprite_frames = ExtResource("2_msaml")
-animation = &"idle"
+animation = &"walk"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -46)
+position = Vector2(0, -63)
 shape = SubResource("CapsuleShape2D_7x5a4")
 one_way_collision = true
 
